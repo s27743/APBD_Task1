@@ -9,13 +9,13 @@ return;
 
 static float Average(int[] arr)
 {
-    var sum = 0f;
+    var suma = 0f;
     foreach (int value in arr)
     {
-        sum += value;
+        suma += value;
     }
 
-    return sum / arr.Length;
+    return suma / arr.Length;
 }
 
 static float Max(int[] arr)
